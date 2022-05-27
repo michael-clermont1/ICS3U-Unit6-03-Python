@@ -12,7 +12,7 @@ def smallest_number_array(array):
 
     small_number = array[1]
     for counter in array:
-        maxi = array[counter]
+        maxi = counter
         if small_number > maxi:
             small_number = maxi
 
