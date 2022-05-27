@@ -11,7 +11,7 @@ def smallest_number_array(array):
     # this function is gets the smallest number in an array
 
     small_number = array[1]
-    for counter in range(0, len(array)):
+    for counter in array:
         maxi = array[counter]
         if small_number > maxi:
             small_number = maxi
